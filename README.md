@@ -1,7 +1,7 @@
-Image Classification Project
+## Image Classification Project
 This repository contains Jupyter Notebooks for training, analyzing, and inferencing on an Resnet18 model on CIFAR 10 dataset. All the code is done in pytorch.
 
-Notebooks:
+## Notebooks:
 
 Train.ipynb: This notebook defines the model architecture, training pipeline, and hyperparameters. It loads the training data, preprocesses it, trains the model, and saves the trained model weights.
 
@@ -11,14 +11,14 @@ Inference_testlabels.ipynb: This notebook loads our pretrained model saved on fi
 
 Inference_test_nolabels.ipynb: This notebook loads a pre-trained model and tests it on an unlabeled dataset. It uses the model to predict class labels for the unseen images and generates a CSV file containing the image IDs and predicted labels in the required format for submission to a competition.
 
-Getting Started:
+## Getting Started:
 
 
-Install dependencies:
+### Install dependencies:
 
 Create a new virtual environment and install the required libraries using a package manager like pip. All the requirements are on requirements.txt
 
-Run the notebooks:
+### Run the notebooks:
 
 Open the Jupyter Notebook application and navigate to the repository directory. You can then open and run each notebook individually.
 
