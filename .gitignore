@@ -91,6 +91,6 @@ ENV/
 .ropeproject
 
 data/
-data_course
+# data_course
 venv
 
